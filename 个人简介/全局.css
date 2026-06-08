@@ -1,0 +1,101 @@
+/* 1. 盒模型统一 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. 移除默认边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. 平滑滚动（可选） */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 4. 基础字体设置 */
+body {
+    /* 系统无衬线字体栈，跨平台最佳体验 */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    /* 最佳阅读行高 */
+    -webkit-font-smoothing: antialiased;
+    /* 字体抗锯齿 */
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    color: #6b7280;
+}
+
+/* 5. 媒体元素默认样式 */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /* 保持图片比例 */
+}
+
+/* 6. 表单元素继承字体 */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
+
+/* 7. 避免文本溢出 */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111827;
+}
+
+/* 8. 锚点标签重置 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 9. 列表重置 */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 10. 按钮重置 */
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+/* 11. 表格重置 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.father {
+    width: 1200px;
+    margin: 0 auto;
+}

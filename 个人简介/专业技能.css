@@ -1,0 +1,60 @@
+.section-2 {
+    margin: 15px 0;
+    padding: 50px;
+    border-radius: 12px;
+    background-color: #ddd;
+}
+.section-2 h1{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+.section-2-z{
+    display: flex;
+}
+.section-2-z>div{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 12px; ;
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+   height: 175px;
+    flex: 3;
+    transition: all ease 0.3s;
+}
+.section-2-z span{
+    font-weight: 800;
+}
+.section-2-z>div:hover{
+    transform: translate(-2px,-2px);
+    box-shadow: 0 4px 7px -2px rgba(0, 0, 0, 0.3);
+}
+.section-2-j{
+    margin: 5px 0 0 0;
+    border: #333 solid 2px;
+    border-radius: 5px;
+
+}
+.section-2-j>div{
+    background-color: #6366f1;
+    color: #222;
+    text-align: center;
+}
+.section-2-j-1{
+    width: 85%;
+}
+.section-2-j-2{
+    width: 45%;
+}
+.section-2-j-3{
+    width: 40%;
+}
+.section-2-j-4{
+    width: 50%;
+}
+.section-2-j-5{
+    width: 35%;
+}
+.section-2-j-6{
+    width: 90%;
+}

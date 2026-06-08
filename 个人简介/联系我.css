@@ -1,0 +1,68 @@
+.aside{
+    margin: 10px 0;
+     background-color: #ddd;
+    height: 400px;    
+    padding: 50px;
+    
+}
+.aside>h1{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+.aside-z{
+   display: flex;
+}
+.aside-z>div{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+.aside-left span{
+    font-size: 18px;
+    color: #555;
+    font-weight: 600;
+}
+.aside-right{
+    display: flex;
+}
+.a-1{
+    flex: 8;
+}
+.aside-right-z{
+    margin: 15px 0;
+}
+.aside-right-z input{
+    padding: 2px 5px 2px 2px;
+    border-radius: 5px;
+    border: none;
+}
+.aside-right-z textarea{
+    width: 280px;
+  height: 80px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: none; /* 禁止拖拽大小 */
+  font-size: 14px;
+}
+.aside-right-z input:focus{
+     border-color: #409eff;
+     border: #6366f1;
+     border-radius: 5px;
+      box-shadow: 0 0 0 3px rgba(64, 158, 255, 0.15);
+}
+.aside-right-t{
+   
+
+    flex: 2;
+    margin: auto 0;
+}
+.aside-right-t input{
+ background-color: #6366f1;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}

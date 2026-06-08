@@ -1,0 +1,33 @@
+.nav {
+    height: 80px;
+    background-color: rgb(212, 212, 212);
+    position: fixed;
+    top: 0px;
+    position: relative;
+    padding: 25px 0px;
+}
+
+.n-left {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 35px;
+    margin: 0 0 0 30px;
+}
+.n-left span{
+    color: #1a1a1a;
+    font-weight: 800;
+}
+.n-right {
+    position: absolute;
+    right: 0;
+}
+
+.n-right ul {
+    display: flex;
+}
+
+.n-right li {
+    margin: 0px 30px;
+    font-size: 20px;
+}
